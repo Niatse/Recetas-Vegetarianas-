@@ -198,3 +198,14 @@ and (max-width: 1366px)  {
   }
 }
 
+
+@media  screen and (max-width: 1366px) {
+    .titulonav{
+  font-family: 'Dancing Script', cursive;
+ font-size: 20px;
+  color: white;
+  position: absolute;
+  bottom:92%;
+  right: 40%;
+  }
+}
