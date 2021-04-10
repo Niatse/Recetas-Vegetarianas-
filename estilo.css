@@ -159,6 +159,8 @@ border-radius: 50px; /*bordes redondos*/
     color: white;
 }
 #SC_TBlock_843395{
+  align-items: center;
+  justify-content: center;
   height: 30vh;
   width: 40vw;
 }
