@@ -191,4 +191,11 @@ transform: translateX(-100vw);
 .topbar.open{
 transform: translateX(0);
 }
+#SC_TBlock_843395{
+  height: 20vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
+}
+
