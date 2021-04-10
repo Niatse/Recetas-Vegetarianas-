@@ -158,7 +158,12 @@ border-radius: 50px; /*bordes redondos*/
     text-decoration-color:none;
     color: white;
 }
-
+#SC_TBlock_843395{
+  display: flex;
+    flex-direction: column;
+    align-items: center;
+     justify-content: center;
+}
 /*Termina Cards*/
 @media all and (max-width:578px){
 .topbar{
@@ -175,8 +180,13 @@ transform: translateX(0);
 }
 .card{
   width: 70vw;
+  margin: 0;
+  margin-top: 50px;
 }
 #SC_TBlock_843395{
-  height: 30vh;
+  height: 20vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 }
