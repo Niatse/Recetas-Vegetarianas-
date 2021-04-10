@@ -158,6 +158,9 @@ border-radius: 50px; /*bordes redondos*/
     text-decoration-color:none;
     color: white;
 }
+#SC_TBlock_843395{
+  height: 30vh;
+}
 
 /*Termina Cards*/
 @media all and (max-width:578px){
