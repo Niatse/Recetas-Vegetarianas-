@@ -160,6 +160,8 @@ border-radius: 50px; /*bordes redondos*/
 }
 #SC_TBlock_843395{
   margin: 0;
+  margin-left: auto;
+  margin-right: auto;
   height: 30vh;
   width: 40vw;
 }
