@@ -178,7 +178,13 @@ border-radius: 50px; /*bordes redondos*/
   font-family: 'Kiwi Maru', serif;
   
 }
-
+#SC_TBlock_843395{
+  margin: 0;
+  margin-left: auto;
+  margin-right: auto;
+  height: 30vh;
+  width: 40vw;
+}
 
 /*Termina Cards*/
 
@@ -191,4 +197,11 @@ transform: translateX(-100vw);
 .topbar.open{
 transform: translateX(0);
 }
+#SC_TBlock_843395{
+  height: 20vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
+}
+

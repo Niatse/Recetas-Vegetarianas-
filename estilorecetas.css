@@ -1,10 +1,11 @@
-
-
-/*Header*/
-/* Añade un fondo negro al header */
 .topnav {
   background-color: #333;
   overflow: hidden;
+  display:flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
 }
 
 /* Estilos links dentro del header */
@@ -26,6 +27,7 @@
 }
 
 
+
 /* Esconde iconos en pantallas pequeñas */
 .topnav .icon {
   display: none;
@@ -36,6 +38,7 @@
     float: right;
     display: block;
   }
+
 }
 
 /* La clase "responsive" se agrega a topnav con JavaScript cuando el usuario hace clic en el ícono. Esta clase hace que topnav se vea bien en pantallas pequeñas (muestra los enlaces verticalmente en lugar de horizontalmente) */
@@ -54,14 +57,12 @@
   }
 }
 
-.titulonav{
+ .titulonav{
   font-family: 'Dancing Script', cursive;
   font-size: 20px;
   color: white;
-  position: absolute;
-  bottom:93.5%;
-  right: 47%;
-  }
+  margin: 0;
+}
 /*Termina Header*/
 @import url('https://fonts.googleapis.com/css?family=Open+Sans|Roboto');
 
@@ -96,120 +97,4 @@ body{
     letter-spacing: 0.03em;
     line-height: 1.6;
     font-family: 'Open Sans', sans-serif;
-}
-
-@media screen and (max-width: 768px){
- .titulonav{
-  font-family: 'Dancing Script', cursive;
- font-size: 20px;
-  color: white;
-  position: absolute;
-  bottom:90.5%;
-  right: 27%;
- }
-}
-
-@media only screen and (min-width: 411px) and (max-width: 767px) {
-    .titulonav{
-  font-family: 'Dancing Script', cursive;
- font-size: 20px;
-  color: white;
-  position: absolute;
-  bottom:92.5%;
-  right: 28%;
-  }
-}
-  @media only screen and (min-width: 411px) and (max-width: 731px) {
-    .titulonav{
-  font-family: 'Dancing Script', cursive;
- font-size: 20px;
-  color: white;
-  position: absolute;
-  bottom:91.5%;
-  right: 28%;
-  }
-}
-@media only screen   
-and (min-device-width : 768px)   
-and (max-device-width : 1024px) {
-   .titulonav{
-  font-family: 'Dancing Script', cursive;
- font-size: 20px;
-  color: white;
-  position: absolute;
-  bottom:92.1%;
-  right: 30%;
-  }
-}
-
-@media only screen   
-and (min-width: 1030px)   
-and (max-width: 1366px)  {
-   .titulonav{
-  font-family: 'Dancing Script', cursive;
- font-size: 20px;
-  color: white;
-  position: absolute;
-  bottom:92.1%;
-  right: 40%;
-  }
-}  
-
-@media only screen 
-  and (min-device-width: 768px) 
-  and (max-device-width: 1024px) 
-  and (orientation: portrait) 
-  and (-webkit-min-device-pixel-ratio: 1) {
-   .titulonav{
-  font-family: 'Dancing Script', cursive;
- font-size: 20px;
-  color: white;
-  position: absolute;
-  bottom:94.1%;
-  right: 40%;
-  }
-}
-
-@media only screen 
-  and (min-device-width: 1024px) 
-  and (max-device-width: 1366px)
-  and (-webkit-min-device-pixel-ratio: 2) {
-    .titulonav{
-  font-family: 'Dancing Script', cursive;
- font-size: 20px;
-  color: white;
-  position: absolute;
-  bottom:95.4%;
-  right: 35%;
-  }
-}
-
-@media only screen 
-  and (min-device-width: 375px) 
-  and (max-device-width: 812px) 
-  and (-webkit-min-device-pixel-ratio: 3) { 
- .titulonav{
-  font-family: 'Dancing Script', cursive;
- font-size: 20px;
-  color: white;
-  position: absolute;
-  bottom:92.4%;
-  right: 27%;
-  }
-}
-
-
- @media screen
-     and (min-device-width: 1366px) 
-  and (max-device-width: 1600px) 
-  and (-webkit-min-device-pixel-ratio: 2)
-  and (min-resolution: 192dpi) { 
-    .titulonav{
-  font-family: 'Dancing Script', cursive;
- font-size: 20px;
-  color: white;
-  position: absolute;
-  bottom:92.4%;
-  right: 40%;
-  }
 }
