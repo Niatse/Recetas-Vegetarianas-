@@ -165,6 +165,12 @@ border-radius: 50px; /*bordes redondos*/
   height: 30vh;
   width: 40vw;
 }
+.coffeimg{
+  width: 13vw;
+ position: relative;
+ left: 45%;
+ top: 40px;
+}
 
 /*Termina Cards*/
 @media all and (max-width:578px){
@@ -191,6 +197,11 @@ transform: translateX(0);
   flex-direction: column;
   justify-content: space-between;
 }
+.coffeimg{
+  width: 50vw;
+  position: relative;
+  left: 27%;
+}
 }
 
 @media only screen 
@@ -210,4 +221,9 @@ transform: translateX(0);
     margin-right: 30px;
 
    }
+  .coffeimg{
+    width: 40vw;
+    position: relative;
+    left: 29%;
+  } 
 }
