@@ -181,6 +181,25 @@ border-radius: 50px; /*bordes redondos*/
   width: 40vw;
 }
 
+.coffeimg{
+  width: 13vw;
+ position: relative;
+ left: 28%;
+ top: 40px;
+}
+
+a.cafe{
+  text-decoration: none;
+  text-align: center;
+  position: relative;
+  top: 20px;
+  left: auto;
+  right: auto;
+  font-size: 1.2rem;
+  font-family: 'Helvetica', sans-serif;
+  color: black;
+  
+}
 /*Termina Cards*/
 
 
@@ -198,5 +217,11 @@ transform: translateX(0);
   flex-direction: column;
   justify-content: space-between;
 }
+.coffeimg{
+  width: 50vw;
+  position: relative;
+  left: 25%;
 }
+}
+
 
