@@ -185,6 +185,10 @@ a.cafe{
   color: black;
   
 }
+.recetasestrella{
+  text-align: center;
+  font-family: 'Dancing Script', cursive;
+}
 
 /*Termina Cards*/
 @media all and (max-width:578px){
