@@ -125,7 +125,7 @@ body{
 }
 
 .container .card img{
-   height: 24vh;
+   height: 29vh;
    width: 30vw;
    
 }
@@ -271,7 +271,7 @@ border-radius: 50px; /*bordes redondos*/
     }
     .card{
      width: 15vw;  
-    height: 95vh;
+    height: 50vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -285,7 +285,7 @@ border-radius: 50px; /*bordes redondos*/
     font-weight: 300;
 }
 .container .card img{
-   height: 50vh;
+   height: 30vh;
 }
 .container .card a {
   border: 1px solid black; /*anchura, estilo y color borde*/
@@ -309,8 +309,8 @@ border-radius: 50px; /*bordes redondos*/
         max-width: 1440px;
     }
      .card{
-     width: 50em;  
-    height: 120vh;
+     width: 15vw;  
+    height: 54vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -326,7 +326,7 @@ border-radius: 50px; /*bordes redondos*/
  .container .card h4{
         font-family: 'Bebas Neue', cursive;
         font-weight: 600;
-        font-size: 3rem;
+        font-size: 2.8rem;
         text-align: center;
 
 }
@@ -344,5 +344,8 @@ border-radius: 50px; /*bordes redondos*/
     text-decoration-color:none;
     color: white;
     width: 15rem;
+}
+.container .card img{
+   height: 35vh;
 }
 }    
