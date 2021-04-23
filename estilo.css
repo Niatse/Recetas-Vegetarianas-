@@ -117,8 +117,22 @@ body{
     overflow: hidden;
     text-align: center;
     transition: all 0.25s;
+    animation-name: cardanimation;
+    animation-duration: 2s;
     
 }
+
+@keyframes cardanimation {
+  from {
+  margin-top: 10%;
+ }
+
+ to {
+  margin-bottom: 0%;
+
+ }
+}
+
 .container .card:hover{
     transform: translateY(-15px);
     box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
@@ -188,8 +202,20 @@ a.cafe{
 .recetasestrella{
   text-align: center;
   font-family: 'Dancing Script', cursive;
+  animation-name: desplazarse;
+  animation-duration: 3s;
+ 
 }
+@keyframes desplazarse {
+ from {
+  margin-right: 90%;
+ }
 
+ to {
+  margin-left: 0%;
+
+ }
+}
 /*Termina Cards*/
 @media all and (max-width:578px){
 .topbar{

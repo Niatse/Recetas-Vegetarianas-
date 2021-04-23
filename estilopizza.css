@@ -129,10 +129,20 @@ body{
     overflow: hidden;
     text-align: center;
     transition: all 0.25s;
-    
+    animation-name: cardanimation;
+    animation-duration: 2s;
 }
 
+@keyframes cardanimation {
+  from {
+  margin-top: 10%;
+ }
 
+ to {
+  margin-bottom: 0%;
+
+ }
+}
  
 
 
