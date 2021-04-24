@@ -124,7 +124,7 @@ body{
 
 @keyframes cardanimation {
   from {
-  margin-top: 10%;
+  margin-top: 20%;
  }
 
  to {
@@ -202,20 +202,10 @@ a.cafe{
 .recetasestrella{
   text-align: center;
   font-family: 'Dancing Script', cursive;
-  animation-name: desplazarse;
-  animation-duration: 3s;
+  
  
 }
-@keyframes desplazarse {
- from {
-  margin-right: 90%;
- }
 
- to {
-  margin-left: 0%;
-
- }
-}
 /*Termina Cards*/
 @media all and (max-width:578px){
 .topbar{

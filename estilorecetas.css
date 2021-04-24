@@ -118,14 +118,14 @@ body{
     text-align: center;
     transition: all 0.25s;
      animation-name: cardanimation;
-    animation-duration: 1s;
+    animation-duration: 1.5s;
     
 }
 
 
 @keyframes cardanimation {
   from {
-  margin-top: 10%;
+  margin-top: 20%;
  }
 
  to {
@@ -201,20 +201,10 @@ a.cafe{
 .tituloreceta{
   text-align: center;
   font-family: 'Dancing Script', cursive;
-   animation-name: desplazarse;
-  animation-duration: 1.5s;
+   
 }
 
-@keyframes desplazarse {
- from {
-  margin-right: 90%;
- }
 
- to {
-  margin-left: 0%;
-
- }
-}
 
 /*Termina Cards*/
 @media all and (max-width:578px){
